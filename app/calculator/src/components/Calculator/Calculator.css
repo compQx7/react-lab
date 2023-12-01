@@ -1,0 +1,29 @@
+.calculator {
+    max-width: 400px;
+    min-width: 150px;
+    width: 100%;
+    display: grid;
+    gap: 8px;
+}
+
+@media (min-width: 10px) {
+    .calculator {
+        font-size: 10px;
+    }
+}
+@media (min-width: 250px) {
+    .calculator {
+        font-size: 20px;
+        grid-template-rows: 1fr 4fr;
+    }
+}
+@media (min-width: 350px) {
+    .calculator {
+        font-size: 30px;
+    }
+}
+@media (min-width: 450px) {
+    .calculator {
+        font-size: 36px;
+    }
+}

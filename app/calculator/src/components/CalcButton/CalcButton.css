@@ -1,0 +1,32 @@
+.calc-btn {
+    cursor: pointer;
+    aspect-ratio: 1.5 / 1;
+    border: 1px solid #A5A5A5;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 4px 4px #AAAAAA;
+    transition: .3s;
+}
+.calc-btn:hover {
+    opacity: .5;
+}
+.calc-btn:active {
+    color: #000000;
+    box-shadow: 0 0 0 #000000;
+    transition-duration: .1s;
+}
+
+.num-btn {
+    background-color: #dbfffd;
+}
+.ope-btn {
+    background-color: #defbc1;
+}
+.clear-btn {
+    background-color: #ffd8bd;
+}
+.equal-btn {
+    background-color: #c7cfd6;
+}
